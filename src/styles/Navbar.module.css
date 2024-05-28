@@ -1,0 +1,9 @@
+.NavBar {
+    background-color:  #243837;
+    border-bottom: 2px solid #1d2727;
+  }
+
+
+  .CustomNavLink {
+    color: #e9e0e0!important;
+  }
