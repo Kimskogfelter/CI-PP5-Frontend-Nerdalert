@@ -4,6 +4,7 @@ import { useCurrentUser } from "../../contexts/CurrentUserContext";
 import { Card, Media, OverlayTrigger, Tooltip } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Avatar from "../../components/Avatar";
+import { axiosRes } from "../../api/axiosDefaults";
 
 const Post = (props) => {
   const {
@@ -12,17 +13,50 @@ const Post = (props) => {
     profile_id,
     profile_image,
     comments_count,
-    favourite_count,
+    favourites_count,
     favourite_id,
     title,
     content,
     image,
     updated_at,
     postPage,
+    setPosts,
   } = props;
 
   const currentUser = useCurrentUser();
   const is_owner = currentUser?.username === owner;
+
+  const handleFavourite = async () => {
+    try {
+      const { data } = await axiosRes.post("/favourites/", { post: id });
+      setPosts((prevPosts) => ({
+        ...prevPosts,
+        results: prevPosts.results.map((post) => {
+          return post.id === id
+            ? { ...post, favourites_count: post.favourites_count + 1, favourite_id: data.id }
+            : post;
+        }),
+      }));
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  const handleUnfavourite = async () => {
+    try {
+      await axiosRes.delete(`/favourites/${favourite_id}/`);
+      setPosts((prevPosts) => ({
+        ...prevPosts,
+        results: prevPosts.results.map((post) => {
+          return post.id === id
+            ? { ...post, favourites_count: post.favourites_count - 1, favourite_id: null }
+            : post;
+        }),
+      }));
+    } catch (err) {
+      console.log(err);
+    }
+  };
 
   return (
     <Card className={styles.Post}>
@@ -53,11 +87,11 @@ const Post = (props) => {
               <i className="far fa-heart" />
             </OverlayTrigger>
           ) : favourite_id ? (
-            <span onClick={() => {}}>
+            <span onClick={handleUnfavourite}>
               <i className={`fas fa-heart ${styles.Heart}`} />
             </span>
           ) : currentUser ? (
-            <span onClick={() => {}}>
+            <span onClick={handleFavourite}>
               <i className={`far fa-heart ${styles.HeartOutline}`} />
             </span>
           ) : (
@@ -68,7 +102,7 @@ const Post = (props) => {
               <i className="far fa-heart" />
             </OverlayTrigger>
           )}
-          {favourite_count}
+          {favourites_count}
           <Link to={`/posts/${id}`}>
             <i className="far fa-comments" />
           </Link>
