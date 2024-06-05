@@ -24,7 +24,15 @@ IMAGES  FOR THE POSTS:
 * https://wallpapers.com/background/4k-borderlands-3-background-89i54p77r8wx4qwu.html
 * https://wallpapers.com/wallpapers/gaming-headsets-1920-x-1080-wallpaper-dazgssc29liyngr6.html
 
+AVATAR IMAGES:
+* https://www.freepik.com/free-ai-image/portrait-abstract-overstimulated-feelings_138520849.htm#fromView=search&page=1&position=29&uuid=8443b467-05d8-42e7-b779-fc3f1545a647
+
 
 TECHNOLOGIOES:
 * favicon from: https://fontawesome.com/icons/gamepad?f=classic&s=solid
 * used [https://favicon.io/favicon-converter/] to generate the favicon
+
+CODE:
+* used these two repositories to make the star rating work in the comments section: 
+https://github.com/awran5/react-simple-star-rating , https://github.com/Gareth-McGirr/body-doodles/blob/main/src/pages/reviews/ReviewsPage.js
+* used the moments walkthrough by Code Institute to make this IDE: https://github.com/mr-fibonacci/moments/tree/bb6657e265fb18360b841e10d9d633dad06f4e5c
