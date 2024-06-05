@@ -53,9 +53,17 @@ const NavBar = () => {
       >
         <i className="fas fa-heart"></i>Favourites
       </NavLink>
+      <NavLink
+        className={styles.NavLink}
+        activeClassName={styles.Active}
+        to="/contact"
+      >
+        <i className="fa-solid fa-envelope"></i>Contact us
+      </NavLink>
       <NavLink className={styles.NavLink} to="/" onClick={handleSignOut}>
         <i className="fas fa-sign-out-alt"></i>Sign out
       </NavLink>
+     
       <NavLink
         className={styles.NavLink}
         to={`/profiles/${currentUser?.profile_id}`}
@@ -80,6 +88,13 @@ const NavBar = () => {
       >
         <i className="fas fa-user-plus"></i>Sign up
       </NavLink>
+      <NavLink
+        className={styles.NavLink}
+        activeClassName={styles.Active}
+        to="/contact"
+      >
+        <i className="fa-solid fa-envelope"></i>Contact us
+      </NavLink>
     </>
   );
 
@@ -93,7 +108,7 @@ const NavBar = () => {
       <Container>
         <NavLink to="/">
           <Navbar.Brand>
-            <img src={logo} alt="logo" height="45" />
+            <img src={logo} alt="logo" height="110" />
           </Navbar.Brand>
         </NavLink>
         {currentUser && addPostIcon}
