@@ -21,14 +21,11 @@ const Comment = (props) => {
     setPost,
     setComments,
     game_rating,
-    hours_played,
   } = props;
 
   const handleGameRating = (rate: number) => {
     handleGameRating(rate)
   }
-
-  const handleHoursPlayed = hours_played;
 
   const [showEditForm, setShowEditForm] = useState(false);
   const currentUser = useCurrentUser();
@@ -66,10 +63,6 @@ const Comment = (props) => {
           <p className="mt-2">Game rating: <Rating onClick={handleGameRating} initialValue={game_rating} size={25} />
           </p>
           
-          <p>
-            Hours played:
-            <readonly initialValue={hours_played} size={25} />
-          </p>
           {showEditForm ? (
             <CommentEditForm
               id={id}
@@ -78,7 +71,6 @@ const Comment = (props) => {
               profileImage={profile_image}
               setComments={setComments}
               setShowEditForm={setShowEditForm}
-              handleHoursPlayed={hours_played}
               handleGameRating={handleGameRating}
             />
           ) : (
