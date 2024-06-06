@@ -155,7 +155,7 @@ function ContactPage() {
       >
         <Image
           className={`${appStyles.FillerImage}`}
-          src={"https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
+          src={"https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"}
         />
       </Col>
     </Row>
