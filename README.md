@@ -1,7 +1,7 @@
 
 # Nerd Alert - Front end
 
-Nerd Alert is for all the people who love to play computer/video games. They can share pictures from their favourite game and rate, comment on other peoples posts. 
+Nerd Alert is for all the people who love to play computer/video games and that want a community where they can find likeminded people. Loggged in users can share pictures from their favourite game or why not movie and rate, comment on other peoples posts. 
 
 
 ![Mockup](https://raw.githubusercontent.com/Gareth-McGirr/body-doodles/main/readme/images/mockup.JPG)

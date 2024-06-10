@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { axiosReq } from "../../api/axiosDefaults";
-
 import Form from "react-bootstrap/Form";
 import Alert from "react-bootstrap/Alert";
 import Button from "react-bootstrap/Button";
@@ -9,6 +7,7 @@ import Row from "react-bootstrap/Row";
 import Image from "react-bootstrap/Image";
 import Container from "react-bootstrap/Container";
 
+import { axiosReq } from "../../api/axiosDefaults";
 import { useHistory } from "react-router-dom";
 
 import styles from "../../styles/ContactPage.module.css";
