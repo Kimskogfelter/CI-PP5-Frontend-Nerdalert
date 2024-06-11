@@ -703,37 +703,13 @@ Run Application:
 
 ## Credits
 
-This  article was used to implement the simple star rating component:   
-* [awran5/react-simple-star-rating](https://github.com/awran5/react-simple-star-rating)
-
-
-### Content
-
-Logo used was taken from [istockphoto](https://www.istockphoto.com/search/search-by-asset?affiliateredirect=true&assetid=1320[…]dium=affiliate_SP&utm_source=FreeImages&utm_term=letters+bd)
-
-Sign up & Sign in images taken from [wallpaper.dog](https://wallpaper.dog/traditional-tattoo-wallpapers)
-
-### Acknowledgements
-
-I'd like the thank slack user [Tom_5P](https://github.com/Tom-Ainsworth) for help with setting up eslint configs.
-
-A special thanks to [Mr_Bim_Alumni](https://github.com/MrBim) for his help with help resolving a bug where my artist details were showing on other user profiles.
-
-Thanks to [Sean](https://github.com/nazarja) for also helping fix a memory leak.
-
-
-
-
-
-
-
-
-
-
-
-
 CODE:
 * used these two repositories to make the star rating work in the comments section: 
 https://github.com/awran5/react-simple-star-rating , https://github.com/Gareth-McGirr/body-doodles/blob/main/src/pages/reviews/ReviewsPage.js
 * used the moments walkthrough by Code Institute to make this IDE: https://github.com/mr-fibonacci/moments/tree/bb6657e265fb18360b841e10d9d633dad06f4e5c
 * used this repository to help me get the contact form to work: https://github.com/Hujanen91/sourdoughcircle_frontend/blob/main/src/pages/contact/ContactForm.js
+
+
+### Acknowledgements
+
+I'd like the thank the swedish channel in slack for always helping and cheering when things got tough. 
