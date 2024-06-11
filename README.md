@@ -708,6 +708,7 @@ CODE:
 https://github.com/awran5/react-simple-star-rating , https://github.com/Gareth-McGirr/body-doodles/blob/main/src/pages/reviews/ReviewsPage.js
 * used the moments walkthrough by Code Institute to make this IDE: https://github.com/mr-fibonacci/moments/tree/bb6657e265fb18360b841e10d9d633dad06f4e5c
 * used this repository to help me get the contact form to work: https://github.com/Hujanen91/sourdoughcircle_frontend/blob/main/src/pages/contact/ContactForm.js
+* the Version control and Run locally parts in this readme is borrowed from this readme: https://github.com/Gareth-McGirr/body-doodles/blob/main/README.md
 
 
 ### Acknowledgements
