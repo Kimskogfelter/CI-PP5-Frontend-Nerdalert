@@ -129,7 +129,7 @@ As a user it is a nice experince to dont have to click on a button to continue t
 To be able to scroll when you want to see more gives the user a good experience. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716942
-![picture of the home page when scrolling showing no next button](public/user storie 18.png)
+![picture of the home page when scrolling showing no next button](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2018.png)
 
 USER STORIE NR# 9:
 
