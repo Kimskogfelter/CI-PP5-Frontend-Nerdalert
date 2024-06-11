@@ -1,7 +1,7 @@
 
 # Nerd Alert - Front end
 
-Nerd Alert is for all the people who love to play computer/video games and that want a community where they can find likeminded people. Loggged in users can share pictures from their favourite game or why not movie and rate, comment on other peoples posts. 
+Nerd Alert is for all the people who love to play computer/video games and that want a community where they can find likeminded people. Loggged in users can share pictures from their favourite game or why not movie and rate, comment on other peoples posts. This is the frontend of the webpage. The backend API is found here: https://github.com/Kimskogfelter/pp5-drf-nerd-alert
 
 
 ![Mockup](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/mockup.png)
@@ -16,7 +16,7 @@ Nerd Alert is for all the nerdy people out there who wants to find likeminded pe
 
 I used a kanban board when developing this project to help me track each of the steps I needed to take to complete this website.
 
-During the development of the webpage I deleted all the stories I found not necessary to keep in the webise so I only could focus on the ones I really needed.
+During the development of the webpage I deleted all the stories I found not necessary to keep in the websise so I only could focus on the ones I really needed.
 
 The Kanban board was created using github projects and can be located [here](https://github.com/users/Kimskogfelter/projects/6/views/1).
 
@@ -57,6 +57,7 @@ By Epic:
 
 * As a user I can keep scrolling through the images on the site, that are loaded for me automatically so that I don't have to click on "next page" etc
 * As a user I can see a list of the most followed profiles so that I can see which profiles are popular
+* As a user, I can search for posts with keywords, so that I can find the posts and user profiles I am most interested in
 * As a logged in user I can follow and unfollow other users so that I can see and remove posts by specific users in my posts feed
 * As a user I can navigate through pages quickly so that I can view content seamlessly without page refresh
 
@@ -76,19 +77,18 @@ By Epic:
 
 * As a logged in user I can create posts so that I can share my images with the world!
 * As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the newest content
-* As a user, I can search for posts with keywords, so that I can find the posts and user profiles I am most interested in.
 * As a user I can view the details of a single post so that I can learn more about it
 * As a post owner I can edit my post title and description so that I can make corrections or update my post after it was created
 * As an owner of a post I can delete my post so that I can control removal of my post from the application
 * As a user I can view all the posts by a specific user so that I can catch up on their latest posts, or decide I want to follow them
 * As a logged in user I can view content filtered by users I follow so that I can keep up to date with what they are posting about
-* As a user I can view the posts page so that I can read the comments about the post
 
 **Comments**
 
+* As a user I can view the posts page so that I can read the comments about the post
 * As an owner of a comment I can delete my comment so that I can control removal of my comment from the application
 * As a user I can read comments on posts so that I can read what other users think about the posts.
-I can see the comment and star rating.
+I can also see the star rating.
 * As a logged in user I can add comments to a post so that I can share my thoughts about the post.
 I can choose to add a star rating too.
 * As a user I can see how long ago a comment was made so that I know how old a comment is
@@ -119,7 +119,7 @@ I can choose to add a star rating too.
 
 **Home**
 
-User Story:
+USER STORIE NR# 18:
 
 `As a user I can keep scrolling through the images on the site, that are loaded for me automatically so that I don't have to click on "next page" etc`
 
@@ -128,7 +128,10 @@ Implementation:
 As a user it is a nice experince to dont have to click on a button to continue to see more of the content. 
 To be able to scroll when you want to see more gives the user a good experience. 
 
-User Story:
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716942
+![picture of the home page when scrolling showing no next button](public/user storie 18.png)
+
+USER STORIE NR# 9:
 
 `As a user I can see a list of the most followed profiles so that I can see which profiles are popular`
 
@@ -136,7 +139,379 @@ Implementation:
 
 As a user it is a nice experince to see the most popular profiles to see if someone of them offers something they would like to follow too.
 
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716120
+![picture of the home page when scrolling showing no next button](public/user storie 9.png)
 
+USER STORIE NR# 21:
+
+`As a user, I can search for posts with keywords, so that I can find the posts and user profiles I am most interested in.`
+
+Implementation: 
+
+As a user it is a nice experince to be able to search for a specific topic to find what you are looking for without having to search the entire website.
+This is being done with the searchbar at the top of the webpage under the header.
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717112
+![picture of the home page when scrolling showing no next button](public/user storie 21.png)
+
+USER STORIE NR# 7:
+
+`As a logged in user I can follow and unfollow other users so that I can see and remove posts by specific users in my posts feed`
+
+Implementation: 
+
+As a user it is a nice experince to be able only see the content of the profiles you follow in its own page. So when a user choose to follow a profile and click the 
+feed menu in the navigation bar they will get to a page which only shows posts from the users they have choosen to follow. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64715989
+![picture of the home page when scrolling showing no next button](public/user storie 7.png)
+
+USER STORIE NR# 32:
+
+`As a user I can navigate through pages quickly so that I can view content seamlessly without page refresh`
+
+Implementation: 
+
+As a user it is a nice experince to be able to navigate through different pages quickly without having to wait for the page to refresh. This is being done
+by a refresh token. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717935
+
+
+**Authentication**
+
+USER STORIE NR# 30:
+
+`As a user I can sign in to the app so that I can access functionality for logged in users`
+
+Implementation: 
+
+As a user it is a nice experince to be able to create a user for the webpage to be able to get access to certain functions like favourite a post. To later be able to log in and
+find all the posts you have choose to favourite. This is being created by clicking on the  heart next to a posts when logged in. That post is then saved to the favourites page, which the user can reach by clicking on the favourites menu in the navigation bar.
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717737
+![picture of the home page when scrolling showing no next button](public/user storie 30.png)
+
+USER STORIE NR# 29:
+
+` As a user I can tell if I am logged in or not so that I can log in if I need to`
+
+Implementation: 
+
+As a user it is a nice experince to be able to see if you are logged in or not the webpage. When a user is logged in they can see the Sign out menu at the navigation bar. If the user is not logged in they can see the Sign in menu insted. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717686
+![picture of the home page when scrolling showing no next button](public/user storie 29.png)
+
+USER STORIE NR# 28:
+
+`As a user I can maintain my logged-in status until I choose to log out so that my user experience is not compromised`
+
+Implementation: 
+
+As a user it is a nice experince to be able to stay logged in for as long as you want to. This is being done by having a refresh token.
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717641
+
+USER STORIE NR# 31:
+
+`As a user I can create a new account so that I can access all the features for signed up users`
+
+Implementation: 
+
+As a user it is a nice experince to be able to create your own user for the webpage to get access to all the features a logged in user gets. 
+This is being done at the Sign up page with the Sign up form. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717854
+![picture of the home page when scrolling showing no next button](public/user storie 31.png)
+
+**Navigation menu**
+
+USER STORIE NR# 2:
+
+`As a user I can view a navbar from every page so that I can navigate easily between pages`
+
+Implementation: 
+
+As a user it is a nice experince to be able to navigate to the different pages that the webpage offers without having to scroll or search for them.
+This is being done with the navigation menu at the top of every page. The user can then click on the different menus in the navigation bar to get to the different pages.
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64708364
+![picture of the home page when scrolling showing no next button](public/user storie 2.png)
+
+USER STORIE NR# 27:
+
+`As a logged out user I can see sign in and sign up options so that I can sign in/sign up`
+
+Implementation: 
+
+As a user it is a nice experince to be able to see if your are logged in, or if you can create or sign in a user. This is being done with the Sign in/Sign up menus in the 
+navigation bar, which only displays to logged out users. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717548
+![picture of the home page when scrolling showing no next button](public/user storie 27.png)
+
+**Posts**
+
+USER STORIE NR# 25:
+
+`As a logged in user I can create posts so that I can share my images with the world!`
+
+Implementation: 
+
+As a user it is a nice experince to be able to share your own posts. This is being done with the add posts menu that is displayed only to logged in users in the
+navigation menu. When clicked the user is taken to a page where they can choose a image, title and content to then be able to press the create button to create the post.
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717347
+![picture of the home page when scrolling showing no next button](public/user storie 25.png)
+
+USER STORIE NR# 22:
+
+`As a user I can view all the most recent posts, ordered by most recently created first so that I am up to date with the newest content`
+
+Implementation: 
+
+As a user it is a nice experince to be able to see new posts that have been added to the webpage. This is being done at the home page where the newest post
+are at the top of the page. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717163
+![picture of the home page when scrolling showing no next button](public/user storie 22.png)
+
+
+USER STORIE NR# 24:
+
+`As a user I can view the details of a single post so that I can learn more about it`
+
+Implementation: 
+
+As a user it is a nice experince to be able to see more information about a certain post that they are interested in. This is being done by clicking on a certain post.
+The user is then taking to a page which displays only that post and all information about it.
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717283
+![picture of the home page when scrolling showing no next button](public/user storie 24.png)
+
+USER STORIE NR# 16:
+
+`As a post owner I can edit my post title and description so that I can make corrections or update my post after it was created`
+
+Implementation: 
+
+As a user it is a nice experince to be able to edit your own posts. This is being done with 3 dots that appear next to the users own posts when they are logged in.
+When the user clicks on those dots they can choose to edit that post. They are then taken to a separate page where they can change the image, title or content. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716834
+![picture of the home page when scrolling showing no next button](public/user storie 16.png)
+
+USER STORIE NR# 33:
+
+`As an owner of a post I can delete my post so that I can control removal of my post from the application`
+
+Implementation: 
+
+As a user it is a nice experince to be able to delete your own posts. This is being done with 3 dots diplayed by the users own posts when they are logged in. 
+The user needs to click on that certain post that they own to be able to see the 3 dots. They can then click on those and choose the trashcan icon to delete that post.
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=65348599
+![picture of the home page when scrolling showing no next button](public/user storie 33.png)
+
+USER STORIE NR# 6:
+
+`As a user I can view all the posts by a specific user so that I can catch up on their latest posts, or decide I want to follow them`
+
+Implementation: 
+
+As a user it is a nice experince to be able to see all posts by a specific user. This is being done by clicking on that specific users avatar picture. You are
+then taken to that users profile page which diplays all posts that user have created. You can then choose if you want to follow that user or not.
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64715858
+![picture of the home page when scrolling showing no next button](public/user storie 6.png)
+
+
+USER STORIE NR# 19:
+
+`As a logged in user I can view content filtered by users I follow so that I can keep up to date with what they are posting about`
+
+Implementation: 
+
+As a user it is a nice experince to be able to see all posts of the users you choose to follow. This is being done by adding all those users posts in a different page called Feed. That page is diplayed to logged in users in the navigation bar. The logged in user can then choose to click on the Feed menu and get to all the posts that only the users 
+they follow have posted. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717014
+![picture of the home page when scrolling showing no next button](public/user storie 19.png)
+
+**Comments**
+
+USER STORIE NR# 17:
+
+`As a user I can view the posts page so that I can read the comments about the post`
+
+Implementation: 
+
+As a user it is a nice experince to be able to see all the different comments a post got. This is being done by clicking on a specific post. The user is then
+taken to that posts page where they can see the comments made at the bottom of the screen. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716898
+![picture of the home page when scrolling showing no next button](public/user storie 17.png)
+
+USER STORIE NR# 12:
+
+`As an owner of a comment I can delete my comment so that I can control removal of my comment from the application`
+
+Implementation: 
+
+As a user it is a nice experince to be able to delete your own comments when you want to. This is being done by going to a certain post that you have commented on. 
+Next to your comment there is 3 dots which you can press and choose the trashcan to delete that comment. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716524
+![picture of the home page when scrolling showing no next button](public/user storie 12.png)
+
+USER STORIE NR# 13:
+
+`As a user I can read comments on posts so that I can read what other users think about the posts. I can also see the star rating.`
+
+Implementation: 
+
+As a user it is a nice experince to be able to read all the comments made to a post. This is being done by clicking on a post and scroll down to be bottom
+of that post where all the comments are. The user can then read all the comments and also see the star rating. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716589
+![picture of the home page when scrolling showing no next button](public/user storie 13.png)
+
+USER STORIE NR# 15:
+
+`As a logged in user I can add comments to a post so that I can share my thoughts about the post. I can choose to add a star rating too.`
+
+Implementation: 
+
+As a user it is a nice experince to be able to make your own comments to posts. This is being done by clicking on a post and scroll down to bottom of it. 
+The user can then choose to fill in the comment form and add a star rating to then click on the post botton to create that comment. The user needs to be logged in
+for the comment form to appear.
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716735
+![picture of the home page when scrolling showing no next button](public/user storie 15.png)
+
+USER STORIE NR# 14:
+
+`As a user I can see how long ago a comment was made so that I know how old a comment is`
+
+Implementation: 
+
+As a user it is a nice experince to be able to see how long ago a comment was made. This is being done by clicking on a post and scroll down to all the comments.
+The user can then see next to the name of the person that made that comment, how long ago the comment was made. This is good to know so the user knows if the comment is
+new and relevant or if its years old. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716645
+![picture of the home page when scrolling showing no next button](public/user storie 14.png)
+
+USER STORIE NR# 11:
+
+`As an owner of a comment I can edit my comment so that I can fix or update my existing comment with the text or rating.`
+
+Implementation: 
+
+As a user it is a nice experince to be able to edit your own comments. This is being done by clicking on post you have commented on.
+Then next to your own comment there is 3 dots which you can click on to display a edit or delete icon. Click on the edit icon to display a form where
+you can edit your comments text and rating. The user needs to be logged in to be able to see this function. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716295
+![picture of the home page when scrolling showing no next button](public/user storie 11.png)
+
+**Profiles**
+
+USER STORIE NR# 10:
+
+`As a user I can view other users profiles so that I can see their posts and learn more about them`
+
+Implementation: 
+
+As a user it is a nice experince to be able to view other users profiles. This is being done by clicking on a certain users profiles avatar picture to get to that users profile page. The user can then see all the information and posts that specific user have created. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716177
+![picture of the home page when scrolling showing no next button](public/user storie 10.png)
+
+USER STORIE NR# 4:
+
+`As a logged in user I can update my username and password so that I can change my display name and keep my profile secure`
+
+Implementation: 
+
+As a user it is a nice experince to be able to change your username or password when needed. The user needs to be logged in and press their own profile picture in the
+navigation menu. They are then taken to their own profile page. In the top right corner of the profile page there is 3 dots which the user can click on to reveal 3 different menus. 2 of them being able to change the username or password. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64709520
+![picture of the home page when scrolling showing no next button](public/user storie 4.png)
+
+USER STORIE NR# 5:
+
+`As a logged in user I can edit my profile so that I can change my profile picture and bio`
+
+Implementation: 
+
+As a user it is a nice experince to be able to change your own profile image or bio. This is being done by clicking on your own profile picture when youre logged in. 
+You can then click on the 3 dots in the top right corner of your profile page to reveal the edit icon. Press that and youre taken to a form where you can choose to change your profile image and bio text. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64710416
+![picture of the home page when scrolling showing no next button](public/user storie 5.png)
+
+USER STORIE NR# 8:
+
+`As a user I can view statistics about a specific user: bio, number of posts, follows and users followed so that I can learn more about them`
+
+Implementation: 
+
+As a user it is a nice experince to be able to see different statistics about a certain user. This is being done by clicking on a specific users profile picture. The user is then taken to that specific users profile page where they can see statistics like: bio, number of posts, follows and users followed. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716060
+![picture of the home page when scrolling showing no next button](public/user storie 8.png)
+
+USER STORIE NR# 26:
+
+`As a user I can view user's avatars so that I can easily identify users of the application`
+
+Implementation: 
+
+As a user it is a nice experince to be able to see avatars of different users so you can identity them. This is being done by displaying a picture next to that users name. That user can then choose to add their own profile picture so other users can identify them easier. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717491
+![picture of the home page when scrolling showing no next button](public/user storie 26.png)
+
+**Favourites**
+
+USER STORIE NR# 23:
+
+`As a logged in user I can favourite a post so that I can show my support for the posts that interest me`
+
+Implementation: 
+
+As a user it is a nice experince to be able to favourite post that you like. This is being done by clicking on the heart icon that is displayed under the post image and text. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717222
+![picture of the home page when scrolling showing no next button](public/user storie 23.png)
+
+USER STORIE NR# 20:
+
+`As a logged in user I can view the posts I have marked as a favourite so that I can find the posts I enjoy the most`
+
+Implementation: 
+
+As a user it is a nice experince to be able to view the posts that the user have marked as their favourites. This is being done by adding all the posts the user have marked with the heart icon to the page called favourites. To see all the favourite posts the user can click on the favourites menu in the navigation bar to get to that page. 
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717064
+![picture of the home page when scrolling showing no next button](public/user storie 20.png)
+
+**Contact page**
+
+USER STORIE NR# 3:
+
+`As a user I want to be able to contact the webpage if I got any questions`
+
+Implementation: 
+
+As a user it is a nice experince to be able to contact the webpage owners if they got any questions. This is being done by clicking on the
+Contact us menu in the navigation bar. The user is then taken to a contact form which they can fill in send a message to the webpage owners.
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64709085
+![picture of the home page when scrolling showing no next button](public/user storie 3.png)
 
 
 <br>
