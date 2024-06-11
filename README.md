@@ -194,7 +194,7 @@ Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?p
 
 USER STORIE NR# 29:
 
-` As a user I can tell if I am logged in or not so that I can log in if I need to`
+`As a user I can tell if I am logged in or not so that I can log in if I need to`
 
 Implementation: 
 
@@ -547,7 +547,7 @@ The background color on the website is light grey so that the posts, forms and f
 
 #### Typography
 
-The main font used on the website is "DM Sans".
+The font used on the website is "DM Sans".
 <hr>
 <br>
 
