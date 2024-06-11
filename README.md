@@ -569,7 +569,28 @@ The font used on the website is "DM Sans".
 
 #### Images
 
-The images on this website are user uploaded except for the logo which was taken from the royalty free stock website [istockphoto](https://www.istockphoto.com/search/search-by-asset?affiliateredirect=true&assetid=1320[…]dium=affiliate_SP&utm_source=FreeImages&utm_term=letters+bd)
+MEDIA:
+* logo from: https://logo.com/editor/colors
+* picture on the signup page: https://images.pexels.com/photos/4009592/pexels-photo-4009592.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+* picture on the signin page: https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+* picture on the contact page: https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+
+IMAGES FOR THE POSTS:
+* https://wallpapers.com/wallpapers/zelda-on-mountain-peak-10z2shqr6wu21hzh.html
+* https://wallpapers.com/wallpapers/mario-wallpaper-for-ipad-1920x1080-hd-for-ipad-apps-e3al2e43aalb8c5p.html
+* https://wallpapers.com/wallpapers/mario-wallpaper-hd-68yqbxmtiijuexhn.html
+* https://wallpapers.com/background/world-of-warcraft-3840-x-2160-background-au7g7425at5r2933.html
+* https://wallpapers.com/wallpapers/valheim-game-winter-poster-vn5bcejvntr4h0my.html
+* https://wallpapers.com/png/purple-dragon-character-spyro-hgdvc9zc1i4igoon-2.html
+* https://wallpapers.com/wallpapers/super-mario-bros-movie-poster-qc3209k4u4ixufo4.html
+* https://wallpapers.com/wallpapers/wow-classic-orc-dwcucvjj3fm5xiii.html
+* https://wallpapers.com/wallpapers/four-fortnite-survivors-hd-s2quxs8pv30anjws.html
+* https://wallpapers.com/background/4k-borderlands-3-background-89i54p77r8wx4qwu.html
+* https://wallpapers.com/wallpapers/gaming-headsets-1920-x-1080-wallpaper-dazgssc29liyngr6.html
+
+AVATAR IMAGES:
+* https://www.freepik.com/free-ai-image/portrait-abstract-overstimulated-feelings_138520849.htm#fromView=search&page=1&position=29&uuid=8443b467-05d8-42e7-b779-fc3f1545a647
+
 <hr>
 <br>
 
@@ -587,46 +608,70 @@ The images on this website are user uploaded except for the logo which was taken
     * Version control software
 * Github
     * Repository used to store base code and docs
+* favicon from: https://fontawesome.com/icons/gamepad?f=classic&s=solid
+* used [https://favicon.io/favicon-converter/] to generate the favicon
 
 <hr>
 <br>
 
 ## Testing
 
-Testing can be found in the [TESTING.md file](https://github.com/Gareth-McGirr/body-doodles/blob/main/TESTING.md)
 <hr>
 <br>
 
 ## Deployment
 ## Heroku Deployment
 
-The site was deployed to Heroku. The steps to deploy are as follows:
+This project was also deployed to Heroku.com. The following steps shows how you do it:
 
-* Navigate to heroku and create an account
-* Click the new button in the top right corner
-* Select create new app
-* Enter app name
-* Select region and click create app
-* Click the resources tab and search for Heroku Postgres
-* Select hobby dev and continue
+1. Start by creating a account on Herokus website
 
-* Click the deploy tab
-* Scroll down to Connect to GitHub and sign in / authorize when prompted
-* In the search box, find the repositoy you want to deploy and click connect
-* Scroll down to Manual deploy and choose the main branch
-* Click deploy
+2. Then log in to your account and create the app for your website
+
+3. When the app is created go to the settings tab
+
+4. Reveal the config vars and add a KEY of DISABLE_COLLECTSTATIC, and a VALUE of 1
+
+5. In your IDEs terminal pip install gunicorn~=20.1
+
+6. In your IDE use this command: "pip freeze --local > requirements.txt" to update your requirements.txt file with the installed gunicorn
+
+7. Create a file in your root directory named Procfile, it needs to be the same directory as your requirements.txt
+
+8. In your procfile add this text: "web: gunicorn my_project.wsgi"
+
+9. Change "my_project" to the name of your own project
+
+10. Open your settings.py file and change your DEBUG settings to False. It should always be False when deploying your project to Heroku!
+
+11. In your settings.py under the ALLOWED_HOSTS add this text ",'.herokuapp'"
+
+12. Now git add, commit and push all the changes to Github
+
+13. Return to your Heroku dashboard and go to the deploy tab
+
+14. Choose to connect your Heroku account to your Github account
+
+15. When your Heroku account is connected to your Github account search for your project repo name and choose it
+
+16. Then scroll down to the bottom of the page and click on the "deploy branch" button to start a manual deployment
+
+17. When the deployment is done you'll see a "View" button at the bottom of the page
+
+18. Press that button to view your deployed app
+
 <hr>
 <br>
-The live link can be found here: [Live Site - Sizzle and Steak](https://body-doodles.onrender.com/)
+Link to the live website: (https://pp5-frontend-nerdalert-7bbffbba1478.herokuapp.com/)
 <br>
 
 ## Version Control
 
-The site was created using the Visual Studio Code editor and pushed to github to the remote repository ‘body-doodles’.
+The website was created using the Gitpod editor and pushed to github to the repository ‘pp5-frontend-nerdalert’.
 
-The following git commands were used throughout development to push code to the remote repo:
+The following git commands were used throughout development to push code to the repository in github:
 
-```git add <file>``` - This command was used to add the file(s) to the staging area before they are committed.
+```git add .``` - This command was used to add the file(s) to the staging area before they are committed.
 
 ```git commit -m “commit message”``` - This command was used to commit changes to the local repository queue ready for the final step.
 
@@ -680,32 +725,12 @@ Thanks to [Sean](https://github.com/nazarja) for also helping fix a memory leak.
 
 
 
-MEDIA:
-* logo from: https://logo.com/editor/colors
-* picture on the signup page: https://images.pexels.com/photos/4009592/pexels-photo-4009592.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-* picture on the signin page: https://images.pexels.com/photos/3945683/pexels-photo-3945683.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-* picture on the contact page: https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-
-IMAGES  FOR THE POSTS:
-* https://wallpapers.com/wallpapers/zelda-on-mountain-peak-10z2shqr6wu21hzh.html
-* https://wallpapers.com/wallpapers/mario-wallpaper-for-ipad-1920x1080-hd-for-ipad-apps-e3al2e43aalb8c5p.html
-* https://wallpapers.com/wallpapers/mario-wallpaper-hd-68yqbxmtiijuexhn.html
-* https://wallpapers.com/background/world-of-warcraft-3840-x-2160-background-au7g7425at5r2933.html
-* https://wallpapers.com/wallpapers/valheim-game-winter-poster-vn5bcejvntr4h0my.html
-* https://wallpapers.com/png/purple-dragon-character-spyro-hgdvc9zc1i4igoon-2.html
-* https://wallpapers.com/wallpapers/super-mario-bros-movie-poster-qc3209k4u4ixufo4.html
-* https://wallpapers.com/wallpapers/wow-classic-orc-dwcucvjj3fm5xiii.html
-* https://wallpapers.com/wallpapers/four-fortnite-survivors-hd-s2quxs8pv30anjws.html
-* https://wallpapers.com/background/4k-borderlands-3-background-89i54p77r8wx4qwu.html
-* https://wallpapers.com/wallpapers/gaming-headsets-1920-x-1080-wallpaper-dazgssc29liyngr6.html
-
-AVATAR IMAGES:
-* https://www.freepik.com/free-ai-image/portrait-abstract-overstimulated-feelings_138520849.htm#fromView=search&page=1&position=29&uuid=8443b467-05d8-42e7-b779-fc3f1545a647
 
 
-TECHNOLOGIOES:
-* favicon from: https://fontawesome.com/icons/gamepad?f=classic&s=solid
-* used [https://favicon.io/favicon-converter/] to generate the favicon
+
+
+
+
 
 CODE:
 * used these two repositories to make the star rating work in the comments section: 
