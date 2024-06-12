@@ -8,7 +8,6 @@ import CommentEditForm from "./CommentEditForm";
 import styles from "../../styles/Comment.module.css";
 import { useCurrentUser } from "../../contexts/CurrentUserContext";
 import { axiosRes } from "../../api/axiosDefaults";
-import { Rating } from "react-simple-star-rating";
 
 const Comment = (props) => {
   const {
@@ -20,12 +19,8 @@ const Comment = (props) => {
     id,
     setPost,
     setComments,
-    game_rating,
   } = props;
 
-  const handleGameRating = (rate: number) => {
-    handleGameRating(rate)
-  }
 
   const [showEditForm, setShowEditForm] = useState(false);
   const currentUser = useCurrentUser();
@@ -60,8 +55,7 @@ const Comment = (props) => {
         <Media.Body className="align-self-center ml-2">
           <span className={styles.Owner}>{owner}</span>
           <span className={styles.Date}>{updated_at}</span>
-          <p className="mt-2">Game rating: <Rating onClick={handleGameRating} initialValue={game_rating} size={25} />
-          </p>
+        
           
           {showEditForm ? (
             <CommentEditForm
@@ -71,7 +65,6 @@ const Comment = (props) => {
               profileImage={profile_image}
               setComments={setComments}
               setShowEditForm={setShowEditForm}
-              handleGameRating={handleGameRating}
             />
           ) : (
             <p>{content}</p>
