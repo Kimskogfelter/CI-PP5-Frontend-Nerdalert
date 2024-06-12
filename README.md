@@ -518,7 +518,10 @@ Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?p
 
 ### Future Features
 
-???????????
+I got two future features I want to add:
+1. Add a message that pops up when the user have submitted the contact form. That message tells them that
+the their message is sent and that the website owners will contact them as soon as possible.
+
 <hr>
 <br>
 
