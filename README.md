@@ -667,6 +667,25 @@ Link to the live website: (https://pp5-frontend-nerdalert-7bbffbba1478.herokuapp
 
 ## Version Control
 
+* When I first started this project in gitpod I followed the moments tutorial from Code Institute. I then got this error below when I opened that repository they tell 
+you to use: {
+  opensslErrorStack: [
+    'error:03000086:digital envelope routines::initialization error',
+    'error:0308010C:digital envelope routines::unsupported'
+  ],
+  library: 'digital envelope routines',
+  reason: 'unsupported',
+  code: 'ERR_OSSL_EVP_UNSUPPORTED'
+}
+
+* To fix that error and to be able to run the server I wrote this in the terminal:
+1. nvm install 16.18.0.
+then 
+2. nvm use 16.18.0
+to fix that error and be able to open the server with the command: npm start.
+
+<hr>
+
 The website was created using the Gitpod editor and pushed to github to the repository ‘pp5-frontend-nerdalert’.
 
 The following git commands were used throughout development to push code to the repository in github:
