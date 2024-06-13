@@ -597,27 +597,333 @@ AVATAR IMAGES:
 <hr>
 <br>
 
-## Technologies
+### Technologies
 
 * React
     * Main framework used to create the user interface
 * Node
     * Package manager used to install dependencies
-* Eslint
-    * Linting tool used in order to check best practice coding standards
 * Heroku
-    * Used for application hosting
+    * Used for hosting the application
 * Git
     * Version control software
 * Github
-    * Repository used to store base code and docs
+    * Used to store the repository code and documents
 * favicon from: https://fontawesome.com/icons/gamepad?f=classic&s=solid
 * used [https://favicon.io/favicon-converter/] to generate the favicon
 
 <hr>
 <br>
 
-## Testing
+### Testing
+
+---
+
+- I tested the website in Chrome, Firefox and Edge browser to see that all pages loaded and that every link, button, form, images and navigation menu was working
+- The site is also responsive which I tested in google chromes devtools by selecting different screensizes and test each function
+- I tested that all text is easy to read and to understand
+- The CSS code got valified through a CSS validator
+  ![Picture of the results of the CSS validator](public/readme/testing/css validator.jpg)
+
+- The HTML code got valified through a HTML validator
+  I viewed each pages source code on the live website and copy and pasted that html code to the 
+  html validator, so I wouldnt get any react errors. 
+  ![Picture of the results of the Html validator](public/readme/testing/html validator.jpg)
+
+- The Javascript code got valified through a Javascript validator
+![Picture of the results of the Javascript validator]()
+
+#### Manual testing 
+
+I also did manual testings on all website pages to ensure that everything was working as expected:
+
+  - #### Home page
+  Description:
+  Make sure all the links to the different profiles in the Most followed profiles div
+
+  Steps:
+
+  1. Go to the home page
+  2. Click on each profile in the most follow profiles to see that you are taken to that profiles profile page
+  
+  Expected:
+
+  The user should be sent to the profile page they have clicked on 
+
+  Actual:
+
+  I was sent to the profile page for the profile picture I clicked on
+
+- #### Header and navigation menu
+
+ Description:
+  Make sure all the navigation links and the search bar is working
+
+  Steps:
+
+  1. Click on each navigation link to see that i'm taken to the correct page
+  2. Click on the logo at the left corner of the header to see that i'm taken to the home page
+  3. Write something in the search bar, for example "mario" to see that im taken to a post with mario
+  
+  Expected:
+
+  The user should be taken to the correct page when clicking on a navigation link
+  The user should be taken to the correct post when using the searchbar, and if no posts are found the "no results found" page displays
+
+  Actual:
+
+  I was sent to all correct pages through the navigation links and the searchbar showed me the correct posts i was searching for
+
+  - #### Sign in page
+
+  Description:
+  Make sure all the sign in form works and the user is able to log in
+
+  Steps:
+
+  1. Click on the sign in link in the navigation menu
+  2. Fill in the username and password
+  3. Click on the sign in button
+  
+  Expected:
+
+  The user should see the sign in form when first visiting the sign in page
+  The user should be able to log in with the correct username and password
+
+  Actual:
+
+  When I clicked on the sign in link in the navigation menu I was taken to the sign in page. It showed me the sign in form.
+  When I wrote the wrong username or password I was told to type the correct username/password. When typing the correct username/password
+  I got logged in. 
+
+- #### Sign up page
+
+  Description:
+  Make sure that the user is taken sign up page and that they can sign up to the webpage through the form. 
+
+  Steps:
+
+  1. Click on the Sign up link in the navigation bar
+  2. See that you are taken to the sign up page
+  3. Type in a short username and wrong passwords to see that the forms tells you to write a correct username/password
+  4. Choose a correct username and password and see that you can create your own user
+  
+  Expected:
+
+  The user should be able to create their own user for the website if they have typed in the correct username and password
+
+  Actual:
+
+  When I clicked on the sign up link in the navigation menu I was taken to the sign up page. I tried to type a short username and was told to correct that.
+  I typed a different in the two password fields and was told that they dont match. I then typed the correct username and the same password twice in the fields and
+  was able to create my own user. 
+
+  - #### Contact page
+
+  Description:
+  Make sure that the contact form is working on the contact page
+
+  Steps:
+
+  1. Click on Contact us link in the navigation menu
+  2. See that the user is taken to the contact us page 
+  3. See that the contact form is working as expected
+  
+  Expected:
+
+  The user should be taken to the contact page and be able to fill in the contact form and then press the Send message button to send the message
+
+  Actual:
+
+  When I clicked on the Contact us link in the navigation menu i was taken to the contact us page. I then filled in all the information and pressed the 
+  Send message button. The message was sent and I was taken to the most recent viewed page
+
+
+- #### Follow/Unfollow button
+
+  Description:
+  Make sure that all the follow/unfollow button works as expected
+
+  Steps:
+
+  1. Click on the follow button of a profile you dont follow
+  2. See that the button changes from follow to unfollow
+  3. Click on the unfollow button for the profile you just follow to see that the button changes
+  back to follow
+
+  Expected:
+
+  The user should be able to follow and unfollow a user
+
+  Actual:
+
+  When I clicked on a follow button for a user that button changed to unfollow. When i pressed that same button again it changed from unfollow to follow. 
+
+- #### Feed page 
+
+  Description:
+  Make sure the feed page is working and only shows all posts of the profiles you have choosen to follow
+
+  Steps:
+
+  1. Click on the feed link in the navigation menu
+  2. Check that you only see posts from the users you follow
+
+  Expected:
+
+  The user should be taken to the feed page when clicked on the feed link in the navigation menu. The user should only see posts from users the have choosen
+  to follow.
+
+  Actual:
+
+  When I clicked on the feed link in the navigation menu I was taken to the feed page. It only showed posts from the users I had choosen to follow.
+
+- #### Favourites page 
+
+  Description:
+  Make sure the favourites page only shows posts that you have choose as a favourite by clickin on the heart icon for that post
+
+  Steps:
+
+  1. Click on the favourites link in the navigation menu
+  2. See that you only can see posts that you have choosen to favourite by clicking on that posts heart icon
+
+  Expected:
+
+  The user should be taken to the favourites page and only see posts that they have clicked on the heart icon for
+
+  Actual:
+
+  When I clicked on the favourites link in the navigation menu I was taken to the favourites page. I only saw posts that I had choosen as favourites by clicking on the
+  heart icon for those posts. 
+
+- #### Profile page 
+
+  Description:
+  Make sure the user is able to see their own profile page when logged in to the website, and see the posts they have created on their profile page.
+  The user should also be able to edit their own profile by name, bio, username and password.
+
+  Steps:
+
+  1. Log in to the website and see that the profile link is showing in the navigation menu
+  2. Click on the profile page and see that the correct profile page is showing
+  3. If the user has created posts those should be showed on this page
+  4. The user should also be able to click on one post and be taken to that specific post
+  5. Make sure that the edit username, password and bio is working
+
+  Expected:
+
+  The user should be able to see a profile page link in the navigation menu and when clicked on being taken to their own profile page
+  The user should be able to see all the posts they have created IF they have created any
+  The user should be taken to the correct post detail page if they click on a specific post they have created that is showing on their profile page
+  The user should be able to edit their own username, password and bio by the three dots in the top right corner on the profile page
+
+  Actual:
+
+  When I logged in and clicked on the profile page I was taken to my own profile page. I Could see all the different posts I had created.
+  I then tried to click on a specific post and was taken to the correct one. I was also able to edit my username, password and bio. 
+
+
+
+- #### Add post page 
+
+  Description:
+  Make sure that the user can add their own post when logged in to the website, and that the post is showing on the posts page
+
+  Steps:
+
+  1. Log in to the website and see that the add post link is in the navigation menu
+  2. Click on the Add post link too see that the correct page is loaded
+  3. Fill in the information and image that is needed for the post
+  4. Click on the "Create" button at the bottom to see that the user is taken to that posts page and that the new post is added
+
+  Expected:
+
+  The user should be able to see a add post link in the navigation menu when logged in. The user should be able to create a new post that is added to the posts page
+
+  Actual:
+
+  When I logged in and clicked on the Add post link in the navigation menu i was taken to the correct page. I then created a new post and pressed the "create" button.
+  I was then taken to the post page and my own new post was showed on the page
+
+- #### Edit/delete post page 
+
+  Description:
+  Make sure that the user can edit/delete their own post when logged in to the website
+
+  Steps:
+
+  1. Log in to the website and click on a post that you have created
+  2. Click on the three dots and then the edit icon
+  3. Edit the image, title and content
+  4. Check that all the changes was saved
+  5. Click on the three dots and then the trashcan icon
+  6. Check that the post was deleted from the webpage
+
+  Expected:
+
+  The user should be able to edit and delete their own posts. 
+
+  Actual:
+
+  When I logged in and clicked on a post that I owned and then clicked on the three dots and the edit icon I was taken to the edit post page. I was able to change the image, title and content. I then tried to delete that post with the trashcan icon. The post was deleted from the webpage. 
+
+- #### Add comment page 
+
+  Description:
+  Make sure that the user can add their own comments to a post
+  Steps:
+
+  1. Log in to the website and click on a post
+  2. Make a comment
+  3. See that the comment is listed below the post
+
+  Expected:
+
+  The user should be able to create a comment that is listed under that specific post they have choosen to comment
+
+  Actual:
+
+  When I logged in and clicked on a post and wrote a comment and clicked on the post button that comment was listed under that post.
+
+- #### Edit/delete comment page 
+
+  Description:
+  Make sure that the user can edit/delete their own comments when logged in to the website
+
+  Steps:
+
+  1. Log in to the website and click on a post
+  2. Scroll down to the comments
+  3. Click on the three dots next to a comment you have made
+  4. Click on the edit icon to see that you can edit that comment
+  5. Click on the trashcan icon to see that you can delete that comment
+
+  Expected:
+
+  The user should be able to edit and delete their own comments. 
+
+  Actual:
+
+  When I logged in I clicked on a post and scrolled down to the comment section and then clicked on the three dots next to a comment that I wrote. I then edited that comment 
+  and the text was saved and published. I then tried to delete that comment with the trashcan icon. That comment was then erased from that post.
+
+#### Bugs
+
+- 
+
+#### Lighthouse
+
+#### I also tested every page in Lighthouse with the result below
+
+- #### Home Page - Mobile version
+
+![lighthouse result for home page, mobile version](static/images/lighthouse/home-page-lighthouse-mobile.jpg)
+
+- #### Home Page - Desktop version
+
+![lighthouse result for home page, desktop version](static/images/lighthouse/home-page-lighthouse.jpg)
+
 
 <hr>
 <br>
