@@ -88,11 +88,9 @@ By Epic:
 * As a user I can view the posts page so that I can read the comments about the post
 * As an owner of a comment I can delete my comment so that I can control removal of my comment from the application
 * As a user I can read comments on posts so that I can read what other users think about the posts.
-I can also see the star rating.
 * As a logged in user I can add comments to a post so that I can share my thoughts about the post.
-I can choose to add a star rating too.
 * As a user I can see how long ago a comment was made so that I know how old a comment is
-* As an owner of a comment I can edit my comment so that I can fix or update my existing comment with the text or rating.
+* As an owner of a comment I can edit my comment so that I can fix or update my existing comment with the text.
 
 **Profiles**
 
@@ -367,24 +365,24 @@ Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?p
 
 USER STORIE NR# 13:
 
-`As a user I can read comments on posts so that I can read what other users think about the posts. I can also see the star rating.`
+`As a user I can read comments on posts so that I can read what other users think about the posts.`
 
 Implementation: 
 
 As a user it is a nice experince to be able to read all the comments made to a post. This is being done by clicking on a post and scroll down to be bottom
-of that post where all the comments are. The user can then read all the comments and also see the star rating. 
+of that post where all the comments are. The user can then read all the comments. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716589
 ![picture of the comments part of the post page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2013.png)
 
 USER STORIE NR# 15:
 
-`As a logged in user I can add comments to a post so that I can share my thoughts about the post. I can choose to add a star rating too.`
+`As a logged in user I can add comments to a post so that I can share my thoughts about the post.`
 
 Implementation: 
 
 As a user it is a nice experince to be able to make your own comments to posts. This is being done by clicking on a post and scroll down to bottom of it. 
-The user can then choose to fill in the comment form and add a star rating to then click on the post botton to create that comment. The user needs to be logged in
+The user can then choose to fill in the comment form and then click on the post botton to create that comment. The user needs to be logged in
 for the comment form to appear.
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716735
@@ -405,13 +403,13 @@ Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?p
 
 USER STORIE NR# 11:
 
-`As an owner of a comment I can edit my comment so that I can fix or update my existing comment with the text or rating.`
+`As an owner of a comment I can edit my comment so that I can fix or update my existing comment with the text.`
 
 Implementation: 
 
 As a user it is a nice experince to be able to edit your own comments. This is being done by clicking on post you have commented on.
 Then next to your own comment there is 3 dots which you can click on to display a edit or delete icon. Click on the edit icon to display a form where
-you can edit your comments text and rating. The user needs to be logged in to be able to see this function. 
+you can edit your comments text. The user needs to be logged in to be able to see this function. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716295
 ![picture of the edit form for the comments](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2011.png)
