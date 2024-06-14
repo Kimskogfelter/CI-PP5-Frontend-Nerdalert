@@ -630,7 +630,8 @@ AVATAR IMAGES:
   html validator, so I wouldnt get any react errors. 
   ![Picture of the results of the Html validator](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/testing/html%20validator.jpg)
 
-- The Javascript code got valified through a Javascript validator
+- The Javascript code I wrote for my own contact page got valified through a Javascript validator: I didnt test the other code that
+Code Institute had writen as I assume that code is correct and doesnt have to be changed in order to pass. 
 ![Picture of the results of the Javascript validator]()
 
 #### Manual testing 
