@@ -632,6 +632,9 @@ AVATAR IMAGES:
 
 - The Javascript code I wrote for my own contact page got valified through a Javascript validator: I didnt test the other code that
 Code Institute had writen as I assume that code is correct and doesnt have to be changed in order to pass. 
+- The javascript in the ContactPage.js got the result on the picture below. I tried to change the settings of the 
+JShint so the warnings for ES8, ES9 and ES11 would go away but that wasnt possible. Also on line 56 were they say the expression is
+unclosed I couldnt see where because the H1 element got a closing tag. 
 ![Picture of the results of the Javascript validator]()
 
 #### Manual testing 
