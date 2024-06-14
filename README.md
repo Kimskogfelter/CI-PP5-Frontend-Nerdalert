@@ -915,16 +915,17 @@ I also did manual testings on all website pages to ensure that everything was wo
 
 #### Lighthouse
 
-#### I also tested every page in Lighthouse with the result below
+#### I also tested the webpage in Lighthouse with the result below
 
-- #### Home Page - Mobile version
+![lighthouse result](static/images/lighthouse/home-page-lighthouse-mobile.jpg)
 
-![lighthouse result for home page, mobile version](static/images/lighthouse/home-page-lighthouse-mobile.jpg)
+The result was not good on the performance and when I checked why and how I could fix it this showed:
 
-- #### Home Page - Desktop version
+![lighthouse result LCP](static/images/lighthouse/home-page-lighthouse-mobile.jpg)
 
-![lighthouse result for home page, desktop version](static/images/lighthouse/home-page-lighthouse.jpg)
-
+Where it says that I need to preload the images to get better results. But I dont know how that is
+possible because all the images are hosted via Cloudinary and are uploaded by users and not the 
+website owner. 
 
 <hr>
 <br>
