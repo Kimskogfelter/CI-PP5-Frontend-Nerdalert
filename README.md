@@ -607,6 +607,8 @@ AVATAR IMAGES:
     * Version control software
 * Github
     * Used to store the repository code and documents
+* Cloudinary
+    * Used to store images
 * favicon from: https://fontawesome.com/icons/gamepad?f=classic&s=solid
 * used [https://favicon.io/favicon-converter/] to generate the favicon
 
