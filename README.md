@@ -917,11 +917,11 @@ I also did manual testings on all website pages to ensure that everything was wo
 
 #### I also tested the webpage in Lighthouse with the result below
 
-![lighthouse result](static/images/lighthouse/home-page-lighthouse-mobile.jpg)
+![lighthouse result](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/testing/lighthouse%20result.jpg)
 
 The result was not good on the performance and when I checked why and how I could fix it this showed:
 
-![lighthouse result LCP](static/images/lighthouse/home-page-lighthouse-mobile.jpg)
+![lighthouse result LCP](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/testing/lighthouse%20result%20LCP.jpg)
 
 Where it says that I need to preload the images to get better results. But I dont know how that is
 possible because all the images are hosted via Cloudinary and are uploaded by users and not the 
@@ -933,43 +933,21 @@ website owner.
 ## Deployment
 ## Heroku Deployment
 
-This project was also deployed to Heroku.com. The following steps shows how you do it:
+This project was deployed to Heroku.com. The following steps shows how you do it:
 
-1. Start by creating a account on Herokus website
+* Navigate to heroku and create an account
+* Click the new button in the top right corner
+* Select create new app
+* Enter app name
+* Select region and click create app
+* Click the resources tab and search for Heroku Postgres
+* Select hobby dev and continue
 
-2. Then log in to your account and create the app for your website
-
-3. When the app is created go to the settings tab
-
-4. Reveal the config vars and add a KEY of DISABLE_COLLECTSTATIC, and a VALUE of 1
-
-5. In your IDEs terminal pip install gunicorn~=20.1
-
-6. In your IDE use this command: "pip freeze --local > requirements.txt" to update your requirements.txt file with the installed gunicorn
-
-7. Create a file in your root directory named Procfile, it needs to be the same directory as your requirements.txt
-
-8. In your procfile add this text: "web: gunicorn my_project.wsgi"
-
-9. Change "my_project" to the name of your own project
-
-10. Open your settings.py file and change your DEBUG settings to False. It should always be False when deploying your project to Heroku!
-
-11. In your settings.py under the ALLOWED_HOSTS add this text ",'.herokuapp'"
-
-12. Now git add, commit and push all the changes to Github
-
-13. Return to your Heroku dashboard and go to the deploy tab
-
-14. Choose to connect your Heroku account to your Github account
-
-15. When your Heroku account is connected to your Github account search for your project repo name and choose it
-
-16. Then scroll down to the bottom of the page and click on the "deploy branch" button to start a manual deployment
-
-17. When the deployment is done you'll see a "View" button at the bottom of the page
-
-18. Press that button to view your deployed app
+* Click the deploy tab
+* Scroll down to Connect to GitHub and sign in / authorize when prompted
+* In the search box, find the repositoy you want to deploy and click connect
+* Scroll down to Manual deploy and choose the main branch
+* Click deploy
 
 <hr>
 <br>
@@ -1038,7 +1016,7 @@ CODE:
 https://github.com/awran5/react-simple-star-rating , https://github.com/Gareth-McGirr/body-doodles/blob/main/src/pages/reviews/ReviewsPage.js
 * used the moments walkthrough by Code Institute to make this IDE: https://github.com/mr-fibonacci/moments/tree/bb6657e265fb18360b841e10d9d633dad06f4e5c
 * used this repository to help me get the contact form to work: https://github.com/Hujanen91/sourdoughcircle_frontend/blob/main/src/pages/contact/ContactForm.js
-* the Version control and Run locally parts in this readme is borrowed from this readme: https://github.com/Gareth-McGirr/body-doodles/blob/main/README.md
+* the Version control, Heroku deployment and Run locally parts in this readme is borrowed from this readme: https://github.com/Gareth-McGirr/body-doodles/blob/main/README.md
 
 
 ### Acknowledgements
