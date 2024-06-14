@@ -127,7 +127,7 @@ As a user it is a nice experince to dont have to click on a button to continue t
 To be able to scroll when you want to see more gives the user a good experience. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716942
-![picture of the home page when scrolling showing no next button](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2018.png)
+![picture of the home page when scrolling showing no next button](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2018.png)
 
 USER STORIE NR# 9:
 
@@ -138,7 +138,7 @@ Implementation:
 As a user it is a nice experince to see the most popular profiles to see if someone of them offers something they would like to follow too.
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716120
-![picture of the most followed profiles](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%209.png)
+![picture of the most followed profiles](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%209.png)
 
 USER STORIE NR# 21:
 
@@ -150,7 +150,7 @@ As a user it is a nice experince to be able to search for a specific topic to fi
 This is being done with the searchbar at the top of the webpage under the header.
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717112
-![picture of the search bar](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2021.png)
+![picture of the search bar](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2021.png)
 
 USER STORIE NR# 7:
 
@@ -162,7 +162,7 @@ As a user it is a nice experince to be able only see the content of the profiles
 feed menu in the navigation bar they will get to a page which only shows posts from the users they have choosen to follow. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64715989
-![picture of the feed page which only shows posts from the users you follow](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%207.png)
+![picture of the feed page which only shows posts from the users you follow](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%207.png)
 
 USER STORIE NR# 32:
 
@@ -188,7 +188,7 @@ As a user it is a nice experince to be able to create a user for the webpage to 
 find all the posts you have choose to favourite. This is being created by clicking on the  heart next to a posts when logged in. That post is then saved to the favourites page, which the user can reach by clicking on the favourites menu in the navigation bar.
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717737
-![picture of the sign in page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2030.png)
+![picture of the sign in page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2030.png)
 
 USER STORIE NR# 29:
 
@@ -199,7 +199,7 @@ Implementation:
 As a user it is a nice experince to be able to see if you are logged in or not the webpage. When a user is logged in they can see the Sign out menu at the navigation bar. If the user is not logged in they can see the Sign in menu insted. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717686
-![picture of the navigation bar when logged in, showing the sign out menu](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2029.png)
+![picture of the navigation bar when logged in, showing the sign out menu](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2029.png)
 
 USER STORIE NR# 28:
 
@@ -221,7 +221,7 @@ As a user it is a nice experince to be able to create your own user for the webp
 This is being done at the Sign up page with the Sign up form. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717854
-![picture of the sign up page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2031.png)
+![picture of the sign up page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2031.png)
 
 **Navigation menu**
 
@@ -235,7 +235,7 @@ As a user it is a nice experince to be able to navigate to the different pages t
 This is being done with the navigation menu at the top of every page. The user can then click on the different menus in the navigation bar to get to the different pages.
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64708364
-![picture of the navigation bar/menu](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%202.png)
+![picture of the navigation bar/menu](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%202.png)
 
 USER STORIE NR# 27:
 
@@ -247,7 +247,7 @@ As a user it is a nice experince to be able to see if your are logged in, or if 
 navigation bar, which only displays to logged out users. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717548
-![picture of the navigation bar when not logged in to the website](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2027.png)
+![picture of the navigation bar when not logged in to the website](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2027.png)
 
 **Posts**
 
@@ -261,7 +261,7 @@ As a user it is a nice experince to be able to share your own posts. This is bei
 navigation menu. When clicked the user is taken to a page where they can choose a image, title and content to then be able to press the create button to create the post.
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717347
-![picture of the create post page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2025.png)
+![picture of the create post page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2025.pngg)
 
 USER STORIE NR# 22:
 
@@ -273,7 +273,7 @@ As a user it is a nice experince to be able to see new posts that have been adde
 are at the top of the page. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717163
-![picture of the home page where the user can see the most recent posts](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2022.png)
+![picture of the home page where the user can see the most recent posts](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2022.png)
 
 
 USER STORIE NR# 24:
@@ -286,7 +286,7 @@ As a user it is a nice experince to be able to see more information about a cert
 The user is then taking to a page which displays only that post and all information about it.
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717283
-![picture of the page the user gets to when they have clicked on a single post](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2024.png)
+![picture of the page the user gets to when they have clicked on a single post](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2024.png)
 
 USER STORIE NR# 16:
 
@@ -298,7 +298,7 @@ As a user it is a nice experince to be able to edit your own posts. This is bein
 When the user clicks on those dots they can choose to edit that post. They are then taken to a separate page where they can change the image, title or content. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716834
-![picture of the edit post page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2016.png)
+![picture of the edit post page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2016.png)
 
 USER STORIE NR# 33:
 
@@ -310,7 +310,7 @@ As a user it is a nice experince to be able to delete your own posts. This is be
 The user needs to click on that certain post that they own to be able to see the 3 dots. They can then click on those and choose the trashcan icon to delete that post.
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=65348599
-![picture of the trashcan icon the user deletes their own posts with](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2033.png)
+![picture of the trashcan icon the user deletes their own posts with](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2033.png)
 
 USER STORIE NR# 6:
 
@@ -322,7 +322,7 @@ As a user it is a nice experince to be able to see all posts by a specific user.
 then taken to that users profile page which diplays all posts that user have created. You can then choose if you want to follow that user or not.
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64715858
-![picture of a specific profile page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%206.png)
+![picture of a specific profile page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%206.png)
 
 
 USER STORIE NR# 19:
@@ -335,7 +335,7 @@ As a user it is a nice experince to be able to see all posts of the users you ch
 they follow have posted. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717014
-![picture of the feed menu in the navigation bar](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2019.png)
+![picture of the feed menu in the navigation bar](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2019.png)
 
 **Comments**
 
@@ -349,7 +349,7 @@ As a user it is a nice experince to be able to see all the different comments a 
 taken to that posts page where they can see the comments made at the bottom of the screen. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716898
-![picture of the comment part of the post page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2017.png)
+![picture of the comment part of the post page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2017.png)
 
 USER STORIE NR# 12:
 
@@ -361,7 +361,7 @@ As a user it is a nice experince to be able to delete your own comments when you
 Next to your comment there is 3 dots which you can press and choose the trashcan to delete that comment. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716524
-![picture of the trashcan icon the user can delete their own comment with](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2012.png)
+![picture of the trashcan icon the user can delete their own comment with](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2012.png)
 
 USER STORIE NR# 13:
 
@@ -373,7 +373,7 @@ As a user it is a nice experince to be able to read all the comments made to a p
 of that post where all the comments are. The user can then read all the comments. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716589
-![picture of the comments part of the post page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2013.png)
+![picture of the comments part of the post page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2013.png)
 
 USER STORIE NR# 15:
 
@@ -386,7 +386,7 @@ The user can then choose to fill in the comment form and then click on the post 
 for the comment form to appear.
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716735
-![picture of the comment form on the post page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2015.png)
+![picture of the comment form on the post page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2015.png)
 
 USER STORIE NR# 14:
 
@@ -399,7 +399,7 @@ The user can then see next to the name of the person that made that comment, how
 new and relevant or if its years old. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716645
-![picture of a comment showing the time stamp next to the users name](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2014.png)
+![picture of a comment showing the time stamp next to the users name](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2014.png)
 
 USER STORIE NR# 11:
 
@@ -412,7 +412,7 @@ Then next to your own comment there is 3 dots which you can click on to display 
 you can edit your comments text. The user needs to be logged in to be able to see this function. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716295
-![picture of the edit form for the comments](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2011.png)
+![picture of the edit form for the comments](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2011.png)
 
 **Profiles**
 
@@ -425,7 +425,7 @@ Implementation:
 As a user it is a nice experince to be able to view other users profiles. This is being done by clicking on a certain users profiles avatar picture to get to that users profile page. The user can then see all the information and posts that specific user have created. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716177
-![picture of a single profile page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2010.png)
+![picture of a single profile page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2010.png)
 
 USER STORIE NR# 4:
 
@@ -437,7 +437,7 @@ As a user it is a nice experince to be able to change your username or password 
 navigation menu. They are then taken to their own profile page. In the top right corner of the profile page there is 3 dots which the user can click on to reveal 3 different menus. 2 of them being able to change the username or password. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64709520
-![picture of the edit username and password icons at the profile page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%204.png)
+![picture of the edit username and password icons at the profile page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%204.png)
 
 USER STORIE NR# 5:
 
@@ -449,7 +449,7 @@ As a user it is a nice experince to be able to change your own profile image or 
 You can then click on the 3 dots in the top right corner of your profile page to reveal the edit icon. Press that and youre taken to a form where you can choose to change your profile image and bio text. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64710416
-![picture of the edit form for the profile page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%205.png)
+![picture of the edit form for the profile page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%205.png)
 
 USER STORIE NR# 8:
 
@@ -460,7 +460,7 @@ Implementation:
 As a user it is a nice experince to be able to see different statistics about a certain user. This is being done by clicking on a specific users profile picture. The user is then taken to that specific users profile page where they can see statistics like: bio, number of posts, follows and users followed. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716060
-![picture of the statistics at a profile page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%208.png)
+![picture of the statistics at a profile page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%208.png)
 
 USER STORIE NR# 26:
 
@@ -471,7 +471,7 @@ Implementation:
 As a user it is a nice experince to be able to see avatars of different users so you can identity them. This is being done by displaying a picture next to that users name. That user can then choose to add their own profile picture so other users can identify them easier. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717491
-![picture of users avatar images](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2026.png)
+![picture of users avatar images](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2026.png)
 
 **Favourites**
 
@@ -484,7 +484,7 @@ Implementation:
 As a user it is a nice experince to be able to favourite post that you like. This is being done by clicking on the heart icon that is displayed under the post image and text. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717222
-![picture of the heart icon that favourites a post](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2023.png)
+![picture of the heart icon that favourites a post](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2023.png)
 
 USER STORIE NR# 20:
 
@@ -495,7 +495,7 @@ Implementation:
 As a user it is a nice experince to be able to view the posts that the user have marked as their favourites. This is being done by adding all the posts the user have marked with the heart icon to the page called favourites. To see all the favourite posts the user can click on the favourites menu in the navigation bar to get to that page. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64717064
-![picture of the favourites menu at the navigation bar](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%2020.png)
+![picture of the favourites menu at the navigation bar](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2020.png)
 
 **Contact page**
 
@@ -509,7 +509,7 @@ As a user it is a nice experince to be able to contact the webpage owners if the
 Contact us menu in the navigation bar. The user is then taken to a contact form which they can fill in send a message to the webpage owners.
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64709085
-![picture of the contact page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/user%20storie%203.png)
+![picture of the contact page](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%203.png)
 
 
 <br>
