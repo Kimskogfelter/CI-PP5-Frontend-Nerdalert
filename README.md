@@ -908,7 +908,7 @@ I also did manual testings on all website pages to ensure that everything was wo
 
 #### Bugs
 
-- 
+- No bugs found.
 
 #### Lighthouse
 
