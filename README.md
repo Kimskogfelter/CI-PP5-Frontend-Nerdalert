@@ -621,12 +621,12 @@ AVATAR IMAGES:
 - The site is also responsive which I tested in google chromes devtools by selecting different screensizes and test each function
 - I tested that all text is easy to read and to understand
 - The CSS code got valified through a CSS validator
-  ![Picture of the results of the CSS validator](public/readme/testing/css validator.jpg)
+  ![Picture of the results of the CSS validator](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/testing/css%20validator.jpg)
 
 - The HTML code got valified through a HTML validator
   I viewed each pages source code on the live website and copy and pasted that html code to the 
   html validator, so I wouldnt get any react errors. 
-  ![Picture of the results of the Html validator](public/readme/testing/html validator.jpg)
+  ![Picture of the results of the Html validator](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/testing/html%20validator.jpg)
 
 - The Javascript code got valified through a Javascript validator
 ![Picture of the results of the Javascript validator]()
