@@ -635,7 +635,7 @@ Code Institute had writen as I assume that code is correct and doesnt have to be
 - The javascript in the ContactPage.js got the result on the picture below. I tried to change the settings of the 
 JShint so the warnings for ES8, ES9 and ES11 would go away but that wasnt possible. Also on line 56 were they say the expression is
 unclosed I couldnt see where because the H1 element got a closing tag. 
-![Picture of the results of the Javascript validator]()
+![Picture of the results of the Javascript validator](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/testing/JS%20validator%20result.jpg)
 
 #### Manual testing 
 
