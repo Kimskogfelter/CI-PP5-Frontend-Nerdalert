@@ -611,6 +611,7 @@ AVATAR IMAGES:
     * Used to store images
 * favicon from: https://fontawesome.com/icons/gamepad?f=classic&s=solid
 * used [https://favicon.io/favicon-converter/] to generate the favicon
+* used ESlint for testing the Javascript code 
 
 <hr>
 <br>
@@ -630,8 +631,9 @@ AVATAR IMAGES:
   html validator, so I wouldnt get any react errors. 
   ![Picture of the results of the Html validator](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/testing/html%20validator.jpg)
 
-- The Javascript code I wrote for my own contact page got valified through a Javascript validator: I didnt test the other code that
-Code Institute had writen as I assume that code is correct and doesnt have to be changed in order to pass. 
+- Different parts of the javascript code got warnings that it only was available for the ES6, ES8, ES9 and so on. I ignored those warnings as I couldnt
+changes those settings in the javascript validator to accept code that was from all different versions of javacript. 
+- The Javascript code I wrote for my own contact page got valified through a Javascript validator.
 - The javascript in the ContactPage.js got the result on the picture below. I tried to change the settings of the 
 JShint so the warnings for ES8, ES9 and ES11 would go away but that wasnt possible. Also on line 56 were they say the expression is
 unclosed I couldnt see where because the H1 element got a closing tag. 
