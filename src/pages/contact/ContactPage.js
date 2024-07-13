@@ -67,7 +67,7 @@ function ContactPage() {
                 onChange={handleChange}
               />
             </Form.Group>
-            {errors.name?.map((message, idx) => (
+            {errors.contact_name?.map((message, idx) => (
               <Alert key={idx} variant="warning">
                 {message}
               </Alert>
@@ -84,7 +84,7 @@ function ContactPage() {
                 onChange={handleChange}
               />
             </Form.Group>
-            {errors.email?.map((message, idx) => (
+            {errors.contact_email?.map((message, idx) => (
               <Alert key={idx} variant="warning">
                 {message}
               </Alert>
@@ -100,7 +100,7 @@ function ContactPage() {
                 onChange={handleChange}
               />
             </Form.Group>
-            {errors.subject?.map((message, idx) => (
+            {errors.contact_topic?.map((message, idx) => (
               <Alert key={idx} variant="warning">
                 {message}
               </Alert>
@@ -118,7 +118,7 @@ function ContactPage() {
         
               />
             </Form.Group>
-            {errors.message?.map((message, idx) => (
+            {errors.contact_message?.map((message, idx) => (
               <Alert key={idx} variant="warning">
                 {message}
               </Alert>
