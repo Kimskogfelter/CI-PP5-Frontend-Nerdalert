@@ -45,6 +45,18 @@ This epic is about the front end application where the users can favourite certa
 
 This epic is about the front end application where the users can choose to contact the administration of the webpage through a form if they got any questions.
 
+**Home**
+
+This epic is about the front end application for the home page where the users can see the most recent created posts, the most followed profiles and so on.
+
+**Authentication** 
+
+This epic is about the front end application where the users can choose to sign up, sign in and see if they are logged in or not.
+
+**Navigation menu**
+
+This epic is about the front end application where the users can use the navigation menu at the top of the page to get to the different pages.
+
 
 <hr>
 <br>
