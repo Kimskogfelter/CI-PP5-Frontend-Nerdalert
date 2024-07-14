@@ -607,6 +607,145 @@ AVATAR IMAGES:
 <hr>
 <br>
 
+### Component reusability
+
+This section explains all the different components that have been reased in this project. 
+The text in this chapter have been used from the Reusability chapter from this readme and altered some: https://github.com/Hujanen91/sourdoughcircle_frontend?tab=readme-ov-file#component-reusability
+
+1. Asset.js:
+This component is displaying a spinner when content is loading.
+The component Const Asset is considered a reusable component and is reused in:
+
+NotFound.js, PostCreateForm.js, PostPage.js, PostsPage.js, PopularProfiles.js, ProfilePage.js.
+
+2. Avatar.js:
+This component is displaying the avatar images for the profiles.
+The component Const Avatar is considered a reusable component and is reused in:
+
+NavBar.js, Comment.js, CommentCreateForm.js, Post.js and Profile.js.
+
+3. MoreDropdown.js:
+This component is designed to show a dropdown menu. 
+The component const MoreDropdown is considered a reusable component and is reused in:
+
+Comment.js, Post.js and ProfilePage.js.
+
+4. Navbar.js:
+This component presents the navigation menu at the top of the webpage.
+The component const NavBar is considered a reusable component and is reused in:
+
+App.js.
+
+5. NotFound.js:
+This component displays a image and message that is showed when information can't be found.
+The const NotFound was also given a source of NoResults and this has been reused in:
+
+PostsPage.js and ProfilePage.js.
+
+6. SignInForm.js:
+This component is made to handle the log in form of the webpage.
+The component function SignInForm is considered a reusable component and is used in:
+
+App.js.
+
+7. SignUp.js:
+This component makes the users being able to sign up to the webpage and make their own user.
+The component const SignUpForm is considered a reusable component and is used in:
+
+App.js.
+
+8. Comment.js:
+This component is made to display the comments and if the correct user is logged in they can choose to edit/delete that comment.
+The component const Comment is considered a reusable component and is reused in:
+
+PostPage.js.
+
+9. CommentCreateForm.js:
+This component is designed to be able to for the users to create their own comments.
+The component function CommentCreateForm is considered a reusable component and is reused in:
+
+PostPage.js.
+
+10. CommentEditForm.js:
+The component allows users to edit their own existing comments.
+The component function CommentEditForm is considered a reusable component and is reused in:
+
+Comment.js.
+
+11. ContactPage.js:
+This component is created to for the users to be able to send messages to the admins if they want to contact them.
+The component const ContactPage is considered a reusable component and is reused in:
+
+App.js.
+
+12. Post.js:
+This component is showing all the different posts that are created.
+The component const Post is considered a reusable component and is reused in:
+
+PostPage.js and PostsPage.js.
+
+13. PostCreateForm.js:
+This component is designed to create the form where user can add new posts to the website. 
+The component function PostCreateForm is considered a reusable component and is reused in:
+
+App.js.
+
+14. PostEditForm.js:
+This component handles the edit post form for the application.
+The component function PostEditForm is considered a reusable component and is reused in:
+
+App.js.
+
+15. PostPage.js:
+This component shows the view for a specific post, showing the post and the comments.
+The component function PostPage is considered a reusable component and is reused in:
+
+App.js.
+
+16. PostsPage.js:
+The component is designed to display a list of posts based on what the user choose, such as search queries or user-specific feeds.
+The component function PostsPage is considered a reusable component and is reused in:
+
+App.js.
+
+17. PopularProfiles.js:
+This component is designed to display a list of popular profiles, on both small mobile screens and larger computer screens.
+The component const PopularProfiles is considered a reusable component and is reused in:
+
+PostPage.js, PostsPage.js and ProfilePage.js.
+
+18. Profile.js:
+The Profile component is designed to render a user profile with options for following or unfollowing that profile.
+The const Profile is considered to be a reusable component and is reused in:
+
+PopularProfiles.js.
+
+19. ProfileEditForm.js:
+This component allows a user to edit their own profile information, name, bio, and profile image.
+The const ProfileEditForm is considered a reusable component and is reused in:
+
+App.js.
+
+20. ProfilePage.js:
+This component displays a user's profile information, including profile image, bio, follower counts, and their posts.
+The function ProfilePage is considered a reusable component and is reused in:
+
+App.js.
+
+21. UsernameForm.js:
+This component allows users to be able to change their usernames on their profile pages.
+Can be used in other situations where only the static information needs to be updated.
+The const UsernameForm is considered a reusable component and is reused in:
+
+App.js.
+
+22. UserPasswordForm.js:
+This component allows users to be able to change their password. 
+The const UserPasswordForm is considered to be a reusable component and is reused in:
+
+App.js.
+
+
 ### Technologies
 
 * React
@@ -1034,6 +1173,7 @@ https://github.com/awran5/react-simple-star-rating , https://github.com/Gareth-M
 * used the moments walkthrough by Code Institute to make this IDE: https://github.com/mr-fibonacci/moments/tree/bb6657e265fb18360b841e10d9d633dad06f4e5c
 * used this repository to help me get the contact form to work: https://github.com/Hujanen91/sourdoughcircle_frontend/blob/main/src/pages/contact/ContactForm.js
 * the Version control, Heroku deployment and Run locally parts in this readme is borrowed from this readme: https://github.com/Gareth-McGirr/body-doodles/blob/main/README.md
+* the Reusability part of this readme is taken from this readme: https://github.com/Hujanen91/sourdoughcircle_frontend?tab=readme-ov-file#component-reusability and then altered a bit.
 
 
 ### Acknowledgements
