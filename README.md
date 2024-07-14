@@ -539,27 +539,27 @@ the their message is sent and that the website owners will contact them as soon 
 
 Home / Feed / Favourites pages - not logged in user
 
-![Wireframe for Home Page,Feed Page,Favourites Page, not logged in user](https://raw.githubusercontent.com/Kimskogfelter/pp5-frontend-nerdalert/main/public/wireframes/Home%20Page%2CFeed%20Page%2CFavourites%20Page%2C%20not%20logged%20in%20user.webp)
+![Wireframe for Home Page,Feed Page,Favourites Page, not logged in user](https://raw.githubusercontent.com/Kimskogfelter/pp5-frontend-nerdalert/main/public/readme/wireframes/Home%20Page%2CFeed%20Page%2CFavourites%20Page%2C%20not%20logged%20in%20user.webp)
 
 Home / Feed / Favourites pages - logged in user
 
-![Wireframe for Home Page,Feed Page,Favourites Page, logged in user](https://raw.githubusercontent.com/Kimskogfelter/pp5-frontend-nerdalert/main/public/wireframes/Home%20Page%2CFeed%20Page%2CFavourites%20Page%2C%20logged%20in%20user.webp)
+![Wireframe for Home Page,Feed Page,Favourites Page, logged in user](https://raw.githubusercontent.com/Kimskogfelter/pp5-frontend-nerdalert/main/public/readme/wireframes/Home%20Page%2CFeed%20Page%2CFavourites%20Page%2C%20logged%20in%20user.webp)
 
 Contact page
 
-![Wireframe for Contact page](https://raw.githubusercontent.com/Kimskogfelter/pp5-frontend-nerdalert/main/public/wireframes/Contact%20page.webp)
+![Wireframe for Contact page](https://raw.githubusercontent.com/Kimskogfelter/pp5-frontend-nerdalert/main/public/readme/wireframes/Contact%20page.webp)
 
 Profile page
 
-![Wireframe for Profile page](https://raw.githubusercontent.com/Kimskogfelter/pp5-frontend-nerdalert/main/public/wireframes/Profile%20page.webp)
+![Wireframe for Profile page](https://raw.githubusercontent.com/Kimskogfelter/pp5-frontend-nerdalert/main/public/readme/wireframes/Profile%20page.webp)
 
 Sign up page
 
-![Wireframe for Sign up page](https://raw.githubusercontent.com/Kimskogfelter/pp5-frontend-nerdalert/main/public/wireframes/Sign%20up%20page.webp)
+![Wireframe for Sign up page](https://raw.githubusercontent.com/Kimskogfelter/pp5-frontend-nerdalert/main/public/readme/wireframes/Sign%20up%20page.webp)
 
 Sign in page
 
-![Wireframe for Sign in page](https://raw.githubusercontent.com/Kimskogfelter/pp5-frontend-nerdalert/main/public/wireframes/sign%20in%20page.webp)
+![Wireframe for Sign in page](https://raw.githubusercontent.com/Kimskogfelter/pp5-frontend-nerdalert/main/public/readme/wireframes/sign%20in%20page.webp)
 
 
 ### Design
