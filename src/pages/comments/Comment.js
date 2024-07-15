@@ -20,8 +20,6 @@ const Comment = (props) => {
     id,
     setPost,
     setComments,
-    setStarRating,
-    starRating,
   } = props;
 
 
@@ -33,7 +31,7 @@ const Comment = (props) => {
     try {
       // Update the rating in your backend
       await axiosRes.put(`/comments/${commentId}/`, {
-        rating: newStarRating,
+        starRating: newStarRating,
       });
   
       // Optionally, re-fetch the comments to update the UI
@@ -84,12 +82,12 @@ const Comment = (props) => {
               setComments={setComments}
               setShowEditForm={setShowEditForm}
                // Pass a callback to handle rating changes
-              onRatingChange={(rating) => handleStarRatingChange(starRating, id)}
+              onStarRatingChange={(starRating) => handleStarRatingChange(starRating, id)}
             />
           ) : (
             <>
             <p>{content}</p>
-            <Rating starRating={props.starRating} />
+            <Rating rating={props.starRating} />
             </>
           )}
         </Media.Body>

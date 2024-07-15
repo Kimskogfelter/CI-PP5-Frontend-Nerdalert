@@ -25,6 +25,7 @@ function PostPage() {
   const currentUser = useCurrentUser();
   const profile_image = currentUser?.profile_image;
   const [comments, setComments] = useState({ results: [] });
+  const [starRating, setStarRating] = useState({ results: [] });
 
   useEffect(() => {
     const handleMount = async () => {
@@ -35,6 +36,7 @@ function PostPage() {
         ]);
         setPost({ results: [post] });
         setComments(comments);
+        setStarRating(starRating);
       } catch (err) {
         // console.log(err);
       }

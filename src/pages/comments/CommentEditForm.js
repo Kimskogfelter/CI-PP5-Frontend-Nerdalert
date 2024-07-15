@@ -7,14 +7,14 @@ import { Rating } from 'react-simple-star-rating';
 function CommentEditForm(props) {
   const { id, content, setShowEditForm, setComments } = props;
   const [formContent, setFormContent] = useState(content);
-  const [rating, setRating] = useState(0);
+  const [starRating, setStarRating] = useState(0);
 
   const handleChange = (event) => {
     setFormContent(event.target.value);
   };
 
-  const handleRatingChange = (rate) => {
-    setRating(rate); // Update the rating state when a new rating is selected
+  const handleStarRatingChange = (rate) => {
+    setStarRating(rate); // Update the rating state when a new rating is selected
   };
 
   const handleSubmit = async (event) => {
@@ -22,7 +22,7 @@ function CommentEditForm(props) {
     try {
       await axiosRes.put(`/comments/${id}/`, {
         content: formContent.trim(),
-        rating, // Include the rating in the submission data
+        starRating, // Include the rating in the submission data
       });
       setComments((prevComments) => ({
         ...prevComments,
@@ -31,7 +31,7 @@ function CommentEditForm(props) {
             ? {
                 ...comment,
                 content: formContent.trim(),
-                rating, // Update the rating in the comment
+                starRating, // Update the rating in the comment
                 updated_at: "now",
               }
             : comment;
@@ -54,8 +54,7 @@ function CommentEditForm(props) {
           rows={2}
         />
          <Rating
-          onClick={handleRatingChange}
-          /* Additional props like onPointerEnter, onPointerLeave, onPointerMove can be added here if needed */
+          onClick={handleStarRatingChange}
         />
       </Form.Group>
       <div className="text-right">
@@ -68,7 +67,7 @@ function CommentEditForm(props) {
         </button>
         <button
           className={styles.Button}
-          disabled={!formContent.trim() || rating === 0} // Disable the button until both content and rating are provided
+          disabled={!formContent.trim() || starRating === 0} // Disable the button until both content and rating are provided
           type="submit"
         >
           save

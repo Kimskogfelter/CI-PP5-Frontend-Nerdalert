@@ -103,6 +103,7 @@ By Epic:
 * As a logged in user I can add comments to a post so that I can share my thoughts about the post.
 * As a user I can see how long ago a comment was made so that I know how old a comment is
 * As an owner of a comment I can edit my comment so that I can fix or update my existing comment with the text.
+* As a user I should be able to leave a star rating on the comments I want to make on a post
 
 **Profiles**
 
@@ -424,7 +425,21 @@ Then next to your own comment there is 3 dots which you can click on to display 
 you can edit your comments text. The user needs to be logged in to be able to see this function. 
 
 Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=64716295
-![picture of the edit form for the comments](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2011.png)
+![picture of the edit form for the comments](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2034.png)
+
+USER STORIE NR# 34:
+
+`As a user I should be able to leave a star rating on the comments I want to make on a post`
+
+Implementation: 
+
+As a user it is a nice experince to be able to add a star rating on your own comments to tell how good you think the game/movie is.
+This is being done by choosing how many starts you want your comment to have by clicking on the star rating under the comment form.
+The user is also enable to edit the star rating later on if they want to by clicking on edit their own comment. The user needs to be logged in
+in order to be able to edit their own star rating on a existing comment.
+
+Link to user storie: https://github.com/users/Kimskogfelter/projects/6/views/1?pane=issue&itemId=70856193
+![picture of the star rating for the comments](https://github.com/Kimskogfelter/pp5-frontend-nerdalert/blob/main/public/readme/userStories/user%20storie%2011.png)
 
 **Profiles**
 
