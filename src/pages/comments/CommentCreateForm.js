@@ -7,13 +7,19 @@ import InputGroup from "react-bootstrap/InputGroup";
 import styles from "../../styles/CommentCreateEditForm.module.css";
 import Avatar from "../../components/Avatar";
 import { axiosRes } from "../../api/axiosDefaults";
+import { Rating } from 'react-simple-star-rating';
 
 function CommentCreateForm(props) {
   const { post, setPost, setComments, profileImage, profile_id } = props;
   const [content, setContent] = useState("");
+  const [rating, setRating] = useState(0); // State for holding the selected rating
 
   const handleChange = (event) => {
     setContent(event.target.value);
+  };
+
+  const handleRating = (rate) => {
+    setRating(rate);
   };
 
   const handleSubmit = async (event) => {
@@ -22,6 +28,7 @@ function CommentCreateForm(props) {
       const { data } = await axiosRes.post("/comments/", {
         content,
         post,
+        rating, // Include the rating in the submission data
       });
       setComments((prevComments) => ({
         ...prevComments,
@@ -36,6 +43,7 @@ function CommentCreateForm(props) {
         ],
       }));
       setContent("");
+      setRating(0); // Reset the rating state
     } catch (err) {
       console.log(err);
     }
@@ -58,12 +66,16 @@ function CommentCreateForm(props) {
           />
         </InputGroup>
       </Form.Group>
+      <Rating
+        onClick={handleRating}
+        /* Additional props like onPointerEnter, onPointerLeave, onPointerMove can be added here if needed */
+      />
       <button
         className={`${styles.Button} btn d-block ml-auto`}
-        disabled={!content.trim()}
+        disabled={!content.trim() || rating === 0} // Disable the button until both content and rating are provided
         type="submit"
       >
-        post
+        Post
       </button>
     </Form>
   );

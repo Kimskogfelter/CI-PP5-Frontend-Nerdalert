@@ -8,6 +8,7 @@ import CommentEditForm from "./CommentEditForm";
 import styles from "../../styles/Comment.module.css";
 import { useCurrentUser } from "../../contexts/CurrentUserContext";
 import { axiosRes } from "../../api/axiosDefaults";
+import { Rating } from 'react-simple-star-rating';
 
 const Comment = (props) => {
   const {
@@ -19,12 +20,29 @@ const Comment = (props) => {
     id,
     setPost,
     setComments,
+    setStarRating,
+    starRating,
   } = props;
 
 
   const [showEditForm, setShowEditForm] = useState(false);
   const currentUser = useCurrentUser();
   const is_owner = currentUser?.username === owner;
+
+  const handleStarRatingChange = async (newStarRating, commentId) => {
+    try {
+      // Update the rating in your backend
+      await axiosRes.put(`/comments/${commentId}/`, {
+        rating: newStarRating,
+      });
+  
+      // Optionally, re-fetch the comments to update the UI
+      // This depends on how you manage your comments state
+    } catch (error) {
+      console.error("Failed to update rating:", error);
+    }
+  };
+
 
   const handleDelete = async () => {
     try {
@@ -65,9 +83,14 @@ const Comment = (props) => {
               profileImage={profile_image}
               setComments={setComments}
               setShowEditForm={setShowEditForm}
+               // Pass a callback to handle rating changes
+              onRatingChange={(rating) => handleStarRatingChange(starRating, id)}
             />
           ) : (
+            <>
             <p>{content}</p>
+            <Rating starRating={props.starRating} />
+            </>
           )}
         </Media.Body>
         {is_owner && !showEditForm && (
