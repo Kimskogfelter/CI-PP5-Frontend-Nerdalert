@@ -25,7 +25,7 @@ function CommentCreateForm(props) {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const { data } = await axiosRes.post("/comments/", {
+      const { data } = await axiosRes.post("comments/", {
         content,
         post,
         starRating, // Include the rating in the submission data
@@ -68,6 +68,7 @@ function CommentCreateForm(props) {
       </Form.Group>
       <Rating
         onClick={handleStarRating}
+        value={starRating}
         
       />
       <button
