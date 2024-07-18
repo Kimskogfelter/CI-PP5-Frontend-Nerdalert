@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Media } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Avatar from "../../components/Avatar";
@@ -20,6 +20,7 @@ const Comment = (props) => {
     id,
     setPost,
     setComments,
+    starRating,
   } = props;
 
 
@@ -27,7 +28,9 @@ const Comment = (props) => {
   const currentUser = useCurrentUser();
   const is_owner = currentUser?.username === owner;
 
+
   const handleStarRatingChange = async (newStarRating, commentId) => {
+    
     try {
       // Update the rating in your backend
       await axiosRes.put(`/comments/${commentId}/`, {
@@ -64,7 +67,9 @@ const Comment = (props) => {
   return (
     <>
       <hr />
+    
       <Media>
+     
         <Link to={`/profiles/${profile_id}`}>
           <Avatar src={profile_image} />
         </Link>
@@ -81,13 +86,15 @@ const Comment = (props) => {
               profileImage={profile_image}
               setComments={setComments}
               setShowEditForm={setShowEditForm}
-               // Pass a callback to handle rating changes
+              //  Pass a callback to handle rating changes
               onStarRatingChange={(starRating) => handleStarRatingChange(starRating, id)}
+              starRating={starRating}
             />
           ) : (
             <>
-            <p>{content}</p>
-            <Rating rating={props.starRating} />
+            <p>{content} </p>
+            <Rating initialValue={starRating}
+             />
             </>
           )}
         </Media.Body>

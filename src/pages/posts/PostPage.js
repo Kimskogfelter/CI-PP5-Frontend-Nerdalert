@@ -25,29 +25,28 @@ function PostPage() {
   const currentUser = useCurrentUser();
   const profile_image = currentUser?.profile_image;
   const [comments, setComments] = useState({ results: [] });
-  const [starRating, setStarRating] = useState({ results: [] });
 
   useEffect(() => {
     const handleMount = async () => {
       try {
-        const [{ data: post }, { data: comments }, { data: newStarRating }] = await Promise.all([
+        const [{ data: post }, { data: comments } ] = await Promise.all([
           axiosReq.get(`/posts/${id}`),
           axiosReq.get(`/comments/?post=${id}`),
-          axiosReq.get(`/starRating/?post=${id}`),
+          
         ]);
 
-        console.log("newStarRating: ", newStarRating)
+      
         
         setPost({ results: [post] });
         setComments(comments);
-        setStarRating(prevStarRating => ({ ...prevStarRating, results: newStarRating}));
+        
       } catch (err) {
         // console.log(err);
       }
     };
 
     handleMount();
-  }, [id, starRating]);
+  }, [id]);
 
   return (
     <Row className="h-100">
@@ -74,6 +73,7 @@ function PostPage() {
                   {...comment}
                   setPost={setPost}
                   setComments={setComments}
+
                 />
               ))}
               dataLength={comments.results.length}

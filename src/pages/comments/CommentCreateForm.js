@@ -9,31 +9,45 @@ import Avatar from "../../components/Avatar";
 import { axiosRes } from "../../api/axiosDefaults";
 import { Rating } from 'react-simple-star-rating';
 
+
 function CommentCreateForm(props) {
-  const { post, setPost, setComments, profileImage, profile_id } = props;
+  const { post, setPost, setComments, profileImage, profile_id, } = props;
   const [content, setContent] = useState("");
-  const [starRating, setStarRating] = useState(0); // State for holding the selected rating
+  const [starRating, setStarRating ] = useState(0);
+  
+  
 
   const handleChange = (event) => {
+
     setContent(event.target.value);
   };
 
   const handleStarRating = (rate) => {
-    setStarRating(rate);
+  // const fixedRateNumbers = fixRateNumbers(rate)
+   setStarRating(rate / 20); 
+    
   };
 
+  
+
   const handleSubmit = async (event) => {
+    
     event.preventDefault();
     try {
+     
+    
       const { data } = await axiosRes.post("comments/", {
         content,
         post,
-        starRating, // Include the rating in the submission data
+        starRating,
+       
       });
+      
       setComments((prevComments) => ({
         ...prevComments,
         results: [data, ...prevComments.results],
       }));
+    
       setPost((prevPost) => ({
         results: [
           {
