@@ -1082,7 +1082,7 @@ I also did manual testings on all website pages to ensure that everything was wo
 
 #### Bugs
 
-- No bugs found.
+- Dont know if this should be added as a bug or a future feature to fix but when you click on a star rating in a made comment that changes the star rating but only until you refresh the page. The star rating is then changed back to what it was when the comment was created. My plan is to fix so you cant click and change the star rating at all. I was trying to fix this when developing the star rating but couldnt figure it out. 
 
 #### Lighthouse
 
